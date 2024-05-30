@@ -1,0 +1,10 @@
+site_name: My Docs
+
+theme: 'readthedocs'
+
+plugins:
+  - mkdocstrings
+
+markdown_extensions:
+  - plantuml_markdown:
+      server: http://plantuml:8080
